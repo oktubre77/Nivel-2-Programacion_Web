@@ -1,8 +1,8 @@
 # Programacion WEB Full Stack
 
-*Introducción al uso de la Nube
-*Usando Google Firebase para almacenar y recuperar información
-*Creando Progressive Web Apps
+* Introducción al uso de la Nube
+* Usando Google Firebase para almacenar y recuperar información
+* Creando Progressive Web Apps
 *Instalando Apps en Windows, iPhone y Android
 *Distribución en App Stores
 *NPM: creando proyectos, entendiendo dependencias y scripts
