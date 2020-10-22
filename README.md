@@ -1,4 +1,4 @@
-# Programacion WEB REACT
+# Programacion WEB Full Stack
 
 _Acá va un párrafo que describa lo que es el proyecto_
 
