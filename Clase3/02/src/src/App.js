@@ -18,14 +18,9 @@ const Tarea = () => {
 }, [])
       return (  
       <section>
-        {tarea.filter( tare => tare.userId===8 && parseInt(tare.id)===parseInt(params.id)).map(work =>
-        <div key={work.id}>
-        <h1>{ params.id } - {work.title}</h1>
-        <p>Estado : {work.completed}</p>
-         <p>Estado de la Tarea: {work.completed ? work.completed:<img src={preload} alt="preload" width="16"/>}</p>   
+        <h1>{ params.id } - {tarea.title}</h1>
+         <p>Estado de la Tarea: {tarea.completed?tarea.completed:<img src={preload} alt="preload" width="16"/>}</p>   
          <p><Link to="/">Regresar a la home</Link></p>
-         </div>
-         )}
       </section>    
   )
 }
