@@ -3,18 +3,18 @@
 * Introducción al uso de la Nube
 * Usando Google Firebase para almacenar y recuperar información
 * Creando Progressive Web Apps
-*Instalando Apps en Windows, iPhone y Android
-*Distribución en App Stores
-*NPM: creando proyectos, entendiendo dependencias y scripts
-*Transpilación con Babel
-*ECMAScript 7
-*NodeJS 9: Instalación y uso básico
-*Usando módulos preinstalados
-*ExpressJS y Web Sockets con Socket.IO
-*MongoDB: instalación y uso
-*Service Workers y Offline Web
-*Web Performance: análisis y reporte
-*Mejorando el rendimiento de la Web
+* Instalando Apps en Windows, iPhone y Android
+* Distribución en App Stores
+* NPM: creando proyectos, entendiendo dependencias y scripts
+* Transpilación con Babel
+* ECMAScript 7
+* NodeJS 9: Instalación y uso básico
+* Usando módulos preinstalados
+* ExpressJS y Web Sockets con Socket.IO
+* MongoDB: instalación y uso
+* Service Workers y Offline Web
+* Web Performance: análisis y reporte
+* Mejorando el rendimiento de la Web
 
 ## Comenzando 🚀
 
