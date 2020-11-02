@@ -1,0 +1,14 @@
+.error{color:red;}
+
+textarea{
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    resize: none;
+    height: 24px;
+    transition:1s;
+}
+textarea:hover{
+    height:74px;
+}

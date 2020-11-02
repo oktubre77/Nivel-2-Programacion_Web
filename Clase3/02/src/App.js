@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import { Switch,Route,Link,NavLink,useParams } from 'react-router-dom'
-import preload from "./preload.gif";
+
 
 const Tarea = () => {
   const [tarea, setTarea] = useState( [] )
@@ -21,8 +21,7 @@ const Tarea = () => {
         {tarea.filter( tare => tare.userId===8 && parseInt(tare.id)===parseInt(params.id)).map(work =>
         <div key={work.id}>
         <h1>{ params.id } - {work.title}</h1>
-        <p>Estado : {work.completed}</p>
-         <p>Estado de la Tarea: {work.completed ? work.completed:<img src={preload} alt="preload" width="16"/>}</p>   
+        <p>Estado de la Tarea: {work.completed ? "Completada":"Falta completar"}</p>   
          <p><Link to="/">Regresar a la home</Link></p>
          </div>
          )}
