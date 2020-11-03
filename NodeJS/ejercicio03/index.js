@@ -31,17 +31,25 @@ const notas = [{"Pedro":{
     const Promedio=(matematica+geografia+historia)/3
     console.log(`El promedio de notas de Pedro: ${Promedio.toFixed(2)}`)
 
+    if (matematica > geografia && matematica > historia ){
+        console.log(`Matematica es la nota mas alta: ${matematica} `)
+    }else if (geografia > matematica && geografia > historia ){
+        console.log(`Geografia es la nota mas alta: ${geografia} `)
+    }else{
+        console.log(`Historia es la nota mas alta: ${historia} `)
+    }
+
     //clasificaciones.reduce((a,b) => ({x:a["Pedro"]["Matematica"] + b["Juana"]["Matematica"]}))
     const suma_mate=clasificaciones.reduce(function(a,b){return a["Pedro"]["Matematica"] + b["Juana"]["Matematica"]})
     const suma_geo = clasificaciones.reduce(function(a,b){return a["Pedro"]["Geografia"] + b["Juana"]["Geografia"]})
     const suma_his = clasificaciones.reduce(function(a,b){return a["Pedro"]["Historia"] + b["Juana"]["Historia"]})
     
     if (suma_mate/2 > suma_geo/2 && suma_mate/2 >suma_his/2 ){
-        console.log("El promedio mas por Materia Matermatica : "+suma_mate/2)
+        console.log("El promedio Gral por Materia Matematica : "+suma_mate/2)
     }else if (suma_geo/2 > suma_mate/2 && suma_geo/2 >suma_his/2 ){
-        console.log("El promedio mas por Materia  Geografia: "+suma_geo/2)
+        console.log("El promedio Gral por Materia  Geografia: "+suma_geo/2)
     }else{
-        console.log("El promedio mas por Materia Historia: "+suma_his/2)
+        console.log("El promedio Gral por Materia Historia: "+suma_his/2)
     }
 
     
